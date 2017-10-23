@@ -1,1 +1,1 @@
-details = {'email': 'jiding7@gmail.com', 'password': '#Win691126', 'recipient': 'dingji97@outlook.com'}
+details = {'email': 'jiding7@gmail.com', 'password': '', 'recipient': 'dingji97@outlook.com'}
