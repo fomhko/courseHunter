@@ -9,7 +9,7 @@ from pytz import timezone
 #course = {'department': 'CS', 'number': 225, 'crn': 35917}
 
 def check_open(course):
-    url = 'http://courses.illinois.edu/cisapp/explorer/schedule/2017/fall/{}/{}/{}.xml'.format(course['department'], course['number'], course['crn'])
+    url = 'http://courses.illinois.edu/cisapp/explorer/schedule/2018/spring/{}/{}/{}.xml'.format(course['department'], course['number'], course['crn'])
     r = requests.get(url)
     xml = r.text
 
